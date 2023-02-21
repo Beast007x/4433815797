@@ -1,5 +1,5 @@
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/vKhonshu/intro2/main/ui2"))()
-local NotifyLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/vKhonshu/intro/main/ui"))()
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Beast007x/dhh/main/lib?token=GHSAT0AAAAAAB7BYYB3XLCZ4WZ7YFPPORUIY7UKGJA"))()
+local NotifyLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/Beast007x/dhh/main/noti?token=GHSAT0AAAAAAB7BYYB3O7LSKLL4QEO774CUY7UKHUQ"))()
 NotifyLib.prompt('BlackMango Injecting...', 'Loading..', 5)
 NotifyLib.prompt('Sets Loaded', 'Da Lockers Home XD', 5)
 NotifyLib.prompt('BlackMango', 'Lets GOO)', 5)
@@ -165,8 +165,10 @@ local PredictionValue = 0.1357363
              pingvalue = game:GetService("Stats").Network.ServerStatsItem["Data Ping"]:GetValueString()
              split = string.split(pingvalue,'(')
              ping = tonumber(split[1])
-            if ping < 145 then
-                PredictionValue = 0.155
+            if ping < 160 then
+                PredictionValue = 0.163
+			elseif ping < 145 then
+                PredictionValue = 0.156
 			elseif ping < 130 then
                 PredictionValue = 0.151
             elseif ping < 125 then
