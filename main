@@ -1,5 +1,5 @@
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Beast007x/dhh/main/lib?token=GHSAT0AAAAAAB7BYYB3XLCZ4WZ7YFPPORUIY7UKGJA"))()
-local NotifyLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/Beast007x/dhh/main/noti?token=GHSAT0AAAAAAB7BYYB3O7LSKLL4QEO774CUY7UKHUQ"))()
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Beast007x/4433815797/main/lib"))()
+local NotifyLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/Beast007x/4433815797/main/noti"))()
 NotifyLib.prompt('BlackMango Injecting...', 'Loading..', 5)
 NotifyLib.prompt('Sets Loaded', 'Da Lockers Home XD', 5)
 NotifyLib.prompt('BlackMango', 'Lets GOO)', 5)
